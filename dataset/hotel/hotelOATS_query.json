@@ -1,0 +1,14 @@
+{
+    "0": "- LOCATION",
+    "1": "- FACILITIES",
+    "2": "- ROOMS",
+    "3": "+ ROOM AMENITIES",
+    "4": "- ROOM AMENITIES",
+    "5": "+ SERVICE",
+    "6": "+ FOOD_DRINKS",
+    "7": "+ FACILITIES",
+    "8": "- FOOD DRINKS",
+    "9": "- SERVICE",
+    "10": "+ LOCATION",
+    "11": "+ ROOMS"
+}
