@@ -1,0 +1,24 @@
+beautifulsoup4==4.12.3
+bertopic==0.17.0
+cat-aspect-extraction==2.0.0
+datamapplot==0.5.1
+datasets==2.21.0
+fasttext==0.9.3
+gensim==4.3.3
+luigi==3.5.2
+lxml==5.3.0
+matplotlib==3.9.2
+matplotlib-inline==0.1.7
+nltk==3.9.1
+numpy==1.26.4
+pandas==2.2.3
+peft==0.13.2
+reach==4.1.1
+scikit-learn==1.5.2
+scipy==1.13.1
+seaborn==0.13.2
+sentence-transformers==3.3.1
+torch==2.5.0
+tqdm==4.66.5
+transformers @ git+https://github.com/huggingface/transformers@b2f2977533445c4f62bf58e10b1360e6856e78ce
+umap-learn==0.5.7
