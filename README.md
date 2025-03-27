@@ -12,6 +12,9 @@ We use publicly available datasets to train:
 
 Ensure you download these datasets and place them in the `data/raw/` directory before running the scripts.
 
+## Language Filtering
+Download "lid.176.bin"  and place it the `data/fasttext/` :  https://fasttext.cc/docs/en/language-identification.html
+
 ## Requirements
 Ensure you have the necessary dependencies installed before running the scripts:
 ```sh
