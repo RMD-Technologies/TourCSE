@@ -16,8 +16,6 @@ class TaskPositiveSimCSE(luigi.Task):
 
         df = pd.read_csv(self.input().path, delimiter='\t')
 
-        df = df[df['split'] == 'train']
-
         reviews = df['review'].tolist()
 
         datasets = []

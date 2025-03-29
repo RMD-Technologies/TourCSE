@@ -18,8 +18,6 @@ class TaskPositiveSentiCSE(luigi.Task):
 
         df = pd.read_csv(self.input().path, delimiter='\t')
 
-        df = df[df['split'] == 'train']
-
         d = defaultdict(list)
 
         reviews = df['review'].tolist()
