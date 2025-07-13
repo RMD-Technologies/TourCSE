@@ -1,6 +1,6 @@
-# HospCSE - Contrastive Setence Embeddings for Hospitality Opinion Mining 
+# Tourism Mining: Reorganizing Sentence Transformer Embeddings for Tourism Opinion Mining via Topic Modeling of Customer Reviews
 
-![file](HospCSE.png)
+![file](TourCSE.png)
 
 ## Installation & Setup
 
@@ -8,7 +8,7 @@
 We use publicly available datasets to train:
 - **Hotel**: [HotelRec](https://www.kaggle.com/datasets/hariwh0/hotelrec-dataset-1)
 - **Restaurant**: [TripAdvisor NLP Dataset](https://www.kaggle.com/datasets/inigolopezrioboo/a-tripadvisor-dataset-for-nlp-tasks)
-- **Hotel - Visualization**: [515-k Hotel reviews](https://www.kaggle.com/datasets/jiashenliu/515k-hotel-reviews-data-in-europe)
+
 
 Ensure you download these datasets and place them in the `data/raw/` directory before running the scripts.
 
@@ -25,14 +25,14 @@ pip install -r requirements.txt
 
 ### Generate Training Data
 ```sh
-python task_positive_cat.py # Our contribution with EASY-HTM
+python task_positive_cat.py # Our contribution
 python task_positive_simcse.py
 python task_positive_senticse.py
 ```
 
 
-### Training HospCSE
-To train HospCSE embeddings, run:
+### Training TourCSE
+To train TourCSE embeddings, run:
 ```sh
 python pipeline_train_embeddings.py
 ```
